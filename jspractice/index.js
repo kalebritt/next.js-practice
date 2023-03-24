@@ -1,5 +1,3 @@
-// Properties: _name, _remainingVacationDays (set to 20 inside the constructor()), _insurance
-// Methods: .takeVacationDays()
 class HospitalEmployee {
     constructor(name) {
       this._name = name;
@@ -18,12 +16,23 @@ class HospitalEmployee {
       this._remainingVacationDays -= daysOff;
     }
   }
-
+  
   class Nurse extends HospitalEmployee {
     constructor(name, certifications) {
       super(name);
       this._certifications = certifications;
     }
+    get certifications() {
+      return this._certifications;
+    }
+    addCertification(newCertification) {
+      this._certifications.push(newCertification);
+    }
   }
   
-  const nurseOlynyk = new Nurse('Olynyk',['Trauma', 'Pediatrics']) 
+  const nurseOlynyk = new Nurse("Olynyk", ["Trauma", "Pediatrics"]);
+  nurseOlynyk.takeVacationDays(5);
+  console.log(nurseOlynyk.remainingVacationDays);
+  nurseOlynyk.addCertification("Genetics");
+  console.log(nurseOlynyk.certifications)
+  
