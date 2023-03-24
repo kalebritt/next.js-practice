@@ -15,6 +15,9 @@ class HospitalEmployee {
     takeVacationDays(daysOff) {
       this._remainingVacationDays -= daysOff;
     }
+    static generatePassword() {
+        return Math.floor(Math.random() * 10000);
+      }
   }
   
   class Nurse extends HospitalEmployee {
