@@ -27,11 +27,6 @@ function answer() {
   }
 }
 
-
-function refreshPage() {
-  document.getElementById("clear").window.location.reload();
-}
-
 function clearForm() {
   document.getElementById("inputForm").value = "";
   document.getElementById("answer-form").value = "";
