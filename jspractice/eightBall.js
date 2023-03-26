@@ -1,4 +1,6 @@
-const userName = "";
+
+
+const userName = "Atias";
 userName ? console.log(`Hello, ${userName}.`) : console.log("Hello.");
 const userQuestion = "Ask something, ";
 console.log(userQuestion + userName);
