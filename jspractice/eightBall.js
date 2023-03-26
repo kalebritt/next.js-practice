@@ -30,7 +30,7 @@ function answer() {
 function clearForm() {
   document.getElementById("inputForm").value = "";
   document.getElementById("answer-form").value = "";
-  document.location.reload()
+  document.location.reload();
 }
 
 // switch (randomNumber) {
