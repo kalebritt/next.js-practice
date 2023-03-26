@@ -5,11 +5,9 @@ console.log(userQuestion + userName);
 const randomNumber = Math.floor(Math.random() * 8);
 let eightBall = "";
 console.log(randomNumber);
-document.getElementById("clear").onclick = clearForm;
 
 function answer() {
-  const inputForm = document.getElementById("inputForm");
-  document.getElementById("inputForm").value = eightBall;
+  const inputForm = (document.getElementById("inputForm").value = eightBall);
   if (randomNumber === 0) {
     eightBall = "It is certain.";
   } else if (randomNumber === 1) {
@@ -29,8 +27,15 @@ function answer() {
   }
 }
 
+
+function refreshPage() {
+  document.getElementById("clear").window.location.reload();
+}
+
 function clearForm() {
   document.getElementById("inputForm").value = "";
+  document.getElementById("answer-form").value = "";
+  document.location.reload()
 }
 
 // switch (randomNumber) {

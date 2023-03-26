@@ -11,7 +11,7 @@
       <input
         type="text"
         name=""
-        id=""
+        id="answer-form"
         placeholder="try your luck..."
         value=""
       />
@@ -26,8 +26,8 @@
       />
     </div>
     <div class="button">
-      <button onclick="{answer()}" id="questionButton">ASK ME ANYTHING</button>
-      <button id="clear">clear form.</button>
+      <button onclick="answer()" id="questionButton">ASK ME ANYTHING</button>
+      <button type="submit" id="clear" onclick="clearForm()">clear form.</button>
     </div>
   </body>
   <script src="jspractice/eightBall.js"></script>
