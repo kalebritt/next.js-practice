@@ -1,4 +1,4 @@
-## [JS Practice :rocket:]
+JS Practice :rocket:
 
 # Index:card_index:
 
@@ -15,7 +15,7 @@
 # Description:book:
 
 ```
-
+this is a place to practice basic javascript.  good clean fun.
 ```
 
 # User Story:feelsgood:
@@ -25,6 +25,7 @@
 # Website Preview:movie_camera:
 
 # Technologies:computer:
+[Javascript](https://www.w3schools.com/js/js_es6.asp)
 
 # Collaborators:muscle:
 
