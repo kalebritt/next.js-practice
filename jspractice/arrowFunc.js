@@ -25,3 +25,21 @@ const sumNumbersTwo = (number) => {
   const sum = number + number;
   return sum; //return statement
 };
+
+// So if we have a function:
+
+const squareNum = (num) => {
+  return num * num;
+};
+
+// We can refactor the function to:
+
+const squareNumTwo = (num) => num * num;
+
+//refactor this function
+const plantNeedsWater = (day) => {
+  return day === "Wednesday" ? true : false;
+};
+
+//remove parentheses, curly brackets, and return statement.
+const plantNeedsWaterTwo = (day) => (day === "Wednesday" ? true : false);
