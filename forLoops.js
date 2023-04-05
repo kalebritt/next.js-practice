@@ -14,3 +14,20 @@ for (let counter = 0; counter < 4; counter++) {
   console.log(counter);
 }
 // In this example, the output would be the following:
+0;
+1;
+2;
+3;
+
+// Let’s break down the example:
+
+// The initialization is let counter = 0, so the loop will start counting at 0.
+// The stopping condition is counter < 4, meaning the loop will run as long as the iterator variable, counter, is less than 4.
+// The iteration statement is counter++. This means after each loop, the value of counter will increase by 1. For the first iteration counter will equal 0, for the second iteration counter will equal 1, and so on.
+// The code block is inside of the curly braces, console.log(counter), will execute until the condition evaluates to false. The condition will be false when counter is greater than or equal to 4 — the point that the condition becomes false is sometimes called the stop condition.
+// This for loop makes it possible to write 0, 1, 2, and 3 programmatically.
+
+// Write your code below
+for (let i = 5; i < 11; i++) {
+  console.log(i);
+}
