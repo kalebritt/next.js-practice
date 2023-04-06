@@ -21,7 +21,11 @@ while (counterTwo < 4) {
 // Create a while loop with a condition that checks if the currentCard does not have that value 'spade'.
 
 // Inside the block of your while loop, add the following line of code:
+const cards = ["diamond", "spade", "heart", "club"];
+
+// Write your code below
+let currentCard;
 while (currentCard != "spade") {
   currentCard = cards[Math.floor(Math.random() * 4)];
+  console.log(currentCard);
 }
-
