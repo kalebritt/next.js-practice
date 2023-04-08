@@ -25,3 +25,12 @@ do {
 while (true === false) {
   console.log(secondMessage);
 }
+
+// Write your code below
+const cupsOfSugarNeeded = 7;
+let cupsAdded = 0;
+
+do {
+  cupsAdded++;
+  console.log(cupsAdded + " cup was added");
+} while (cupsAdded < cupsOfSugarNeeded);
